@@ -15,7 +15,7 @@ window.SITE_CONFIG = {
     studentName: "Khadija Adnan",
     program: "Bachelor of Technology / Engineering",
     university: "McMaster University, Canada",
-    email: "your.email@example.com"
+    email: "adnank@mcmaster.ca"
   },
 
   disclaimer: {
@@ -58,12 +58,12 @@ window.SITE_CONFIG = {
 
   intro: {
     projectTitleLabel: "Mini Project A",
-    projectTitle: "Development of Digital Twin of a Railway Corridor Using Unity Game Engine and SUMO Traffic Simulation",
+    projectTitle: "Traffic Simulation and Performance Analysis of Human-Driven and Automated Vehicles Using SUMO",
     heroVideo: "assets/video/video.mp4",
     heroVideoPoster: "",
     heroVideoAlt: "Autoplay preview video (academic project)",
     videoCaption:
-      "Autoplay preview (≈20 seconds): raw video → Traffic Simulation → Blender → Unity → Results"
+      "SUMO traffic simulation comparing the base scenario (100% HDVs) with Scenario 1 (100% AVs/CAVs) at the selected intersection."
   },
 
   caseStudy: {
@@ -71,26 +71,26 @@ window.SITE_CONFIG = {
 
     backgroundTitle: "Background",
     backgroundBullets: [
-			"Global freight rail is growing and remains strategically important.",
-			"Rail carries about 18% of EU inland freight, 36% in the U.S., and 27% in India.",
-			"Road dominates many freight systems, so rail often receives less attention.",
-			"In Canada, rail accounted for 10.5% of international merchandise trade value in 2024."
+			"Traffic congestion affects road efficiency and travel times.",
+			"Human-driven vehicles can contribute to traffic delays and congestion.",
+			"Automated vehicles have the potential to improve traffic flow.",
+			"SUMO enables the simulation and comparison of different traffic scenarios."
     ],
 
     problemTitle: "Problem Statement",
     problemBullets: [
-			"Railway operations are hard to assess.",
-			"3D asset creation is time-consuming.",
-			"2D models lack immersion.",
-			"Results are difficult to communicate."
+			"Traffic congestion reduces transportation efficiency.",
+			"Human driving behaviour can contribute to unstable traffic flow.",
+			"The impact of automated vehicles on traffic performance requires evaluation.",
+			"Simulation helps compare traffic conditions under different vehicle scenarios."
     ],
 
     objectivesTitle: "Project Objectives",
     objectivesBullets: [
-			"Simulate train scheduling, signaling, and capacity in SUMO.",
-			"Create 3D digital assets using generative AI and blender.",
-			"Create 3D rail environment and VR video in Unity.",
-			"Present results in different styles through KPIs, figures, and a showcase website."
+			"Select a road intersection as the study area.",
+		    "Develop a baseline SUMO simulation with 100% human-driven vehicles.",
+		    "Create a second scenario with 100% automated vehicles.",
+		    "Compare traffic performance using speed-density relationships."
     ]
   },
 
@@ -98,23 +98,23 @@ window.SITE_CONFIG = {
     title: "Methodology",
     steps: [
       {
-        title: "Step 1: Train Scheduling and Signaling (SUMO Simulation)",
-				text: "Build the rail network and test routing, signaling, and timetables.",
+        title: "Step 1: Study Area Selection",
+				text: "Select a road intersection and examine its traffic layout and road network.",
         image: "assets/img/image2.jpg"
       },
       {
-				title: "Step 2: Digital Twin Assets Developement (Blender)",
-				text: "Create a 3D railway assets using generative AI and blender.",
+				title: "Step 2: Baseline Traffic Simulation (SUMO)",
+				text: "Develop a SUMO simulation representing 100% human-driven vehicles.",
         image: "assets/img/image3.jpg"
       },
       {
-				title: "Step 3: Immersive VR Visualization (Unity)",
-				text: "Create a 3D railway scene and produce a VR 360-degree video.",
+				title: "Step 3: Automated Vehicle Scenario",
+				text: "Configure a second SUMO scenario using 100% automated vehicles.",
         image: "assets/img/image4.jpg"
       },
       {
-				title: "Step 4: Results & Communication (Figures + Showcase Website)",
-				text: "Summarize results using figures, KPIs, and the showcase website.",
+				title: "Step 4: Results and Comparison",
+				text: "Compare traffic performance using speed-density graphs for both scenarios.",
         image: "assets/img/image5.jpg"
       }
     ]
@@ -124,38 +124,38 @@ window.SITE_CONFIG = {
     title: "Methodology Steps (Demo Modules)",
     modules: [
       {
-        title: "Module 1: Train Scheduling & Signaling (SUMO)",
+        title: "Module 1: Study Area Selection",
         bullets: [
-				  { text: "Build a simulated rail network in SUMO with train routing and maximum operating speed." },
-          { text: "Design fixed-block rail signals and define station stops along the corridor." },
-          { text: "Configure timetable, scheduled departures, running time, dwell time, and headway." }
+				  {text: "Select a road intersection for traffic analysis."},
+				  {text: "Examine the road layout, lanes, and intersection geometry."},
+				  {text: "Prepare the selected road network for SUMO simulation."}
         ],
         image: "assets/img/image2.jpg"
       },
       {
-        title: "Module 2: Digital Twin Assets Developement (Blender)",
+        title: "Module 2: Baseline Traffic Simulation (100% HDV)",
         bullets: [
-          { text: "Generative AI: use Meshy.ai tool to develop different assets." },
-          { text: "From generative AI to belnder." },
-          { text: "Preprocessing assets in Blender ." }
+         {text: "Develop the baseline traffic simulation using SUMO."},
+ 		 {text: "Configure traffic demand with 100% human-driven vehicles."},
+  		 {text: "Run the simulation and collect traffic performance data."}
         ],
         image: "assets/img/image3.jpg"
       },
       {
-        title: "Module 3: Immersive VR Visualization (Unity)",
+        title: "Module 3: Automated Vehicle Simulation (100% AV/CAV)",
         bullets: [
-				  { text: "Develop a 3D railway environment including stations, buildings, trees, and rolling stock." },
-          { text: "Configure visualization fundamentals: lighting, camera position, time of day, and scene composition." },
-          { text: "Produce a VR 360-degree video output for immersive presentation and portfolio use." }
+			  {text: "Create a second traffic scenario using 100% automated vehicles."},
+			  {text: "Configure automated vehicle behaviour in SUMO."},
+			  {text: "Run the simulation and collect traffic performance data."}
         ],
         image: "assets/img/image4.jpg"
       },
       {
-        title: "Module 4: Results & Communication",
+        title: "Module 4: Results and Traffic Performance Analysis",
         bullets: [
-          { text: "Dashboard or plot set: KPI cards, bar charts, and/or time series." },
-          { text: "Scenario story: what changed, what improved, and what tradeoffs appeared." },
-          { text: "Limitations + next steps: what data would strengthen confidence." }
+		 {text: "Generate speed-density graphs for the two traffic scenarios."},
+		{text: "Compare free-flow speed, jam density, and traffic behaviour."},
+		{text: "Evaluate the differences between human-driven and automated vehicles."}
         ],
         image: "assets/img/image5.jpg"
       }
@@ -165,28 +165,28 @@ window.SITE_CONFIG = {
 	results: {
 			title: "Results & Potential Improvements",
 			subtitle:
-				"Train schedule simulation outputs across two scenarios showing arrivals, departures, and dwell time across four stations. Results are for educational purposes only.",
+				"Speed-density relationships are analyzed for the baseline (100% HDV) and automated vehicle (100% AV/CAV) scenarios at Edge E16.",
 
 			charts: {
 				left: {
-					title: "Scenario 1 — Train Schedule: Arrivals, Departures & Dwell Time",
+					title: "Base Scenario — 100% Human-Driven Vehicles (HDV)",
 					src: "assets/img/image6.jpg",
-					alt: "Scenario 1 train schedule chart showing arrivals and departures across S1 to S4"
+					alt: "Speed-density relationship for the baseline scenario with 100% human-driven vehicles at Edge E16"
 				},
 				right: {
-					title: "Scenario 2 — Train Schedule: Arrivals, Departures & Dwell Time",
+					title: "Scenario 1 — 100% Automated Vehicles (AV/CAV)",
 					src: "assets/img/image7.jpg",
-					alt: "Scenario 2 train schedule chart showing arrivals and departures across S1 to S4"
+					alt: "Speed-density relationship for Scenario 1 with 100% automated vehicles at Edge E16"
 				}
 			},
 
 			discussionTitle: "Discussion",
 			discussionBullets: [
-				"Scenario 1 provides a stable baseline timetable with consistent station dwell and smooth train progression.",
-				"Scenario 2 applies a delay at S2, which then propagates to downstream stations.",
-				"Delay effects grow across frequency levels, with major increases in arrival and departure times at S3 and S4.",
-				"S1 is only slightly affected, while downstream stations absorb most of the disruption.",
-				"This demonstrates the importance of recovery time, dwell management, and operational control in rail scheduling."
+				"Both scenarios show decreasing vehicle speeds as traffic density increases.",
+				"The baseline scenario has an estimated free-flow speed of 4.39 m/s and jam density of 185 veh/km.",
+				"The automated vehicle scenario has an estimated free-flow speed of 4.46 m/s and jam density of 181 veh/km.",
+				"Automated vehicles show a slightly higher estimated free-flow speed than human-driven vehicles.",
+				"The results demonstrate how vehicle automation can influence traffic flow characteristics."
 			]
 		},
 
@@ -196,17 +196,17 @@ window.SITE_CONFIG = {
       "This section clarifies academic context, roles, tools, and sources. Clear attribution improves credibility and shows ethical data handling.",
 
     members: [
-      { name: "Your Name", role: "Rail Scheduling & Signaling + Digital Twin I, Immersive VR Visualization + Results & Communication" }
+      { name: "Khadija Adnan", role: "SUMO Traffic Simulation, Scenario Development, Traffic Performance Analysis, and Results Communication" }
     ],
 
     acknowledgments: [
-      "Workshop: Railway Engineering",
-      "Institution: RoadwayVR University",
-      "Instructor: Ahmad Mohammadi",
-      "Tools: SUMO, Blender, Unity, Python"
+		"Course: SMRTTECH 4SC3 - Smart Cities and Communities",
+		  "Institution: McMaster University",
+		  "Lab Instructor: Dr. Ahmad Mohammadi",
+		  "Tools: SUMO, Python, Traffic Simulation and Data Analysis"
     ],
 
     repoLabel: "Project Repository",
-    repoUrl: "https://github.com/USERNAME/REPO"
+    repoUrl: "https://khadijaadnan04.github.io/smartcity-projectaa.github.io/"
   }
 };
