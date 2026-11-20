@@ -57,7 +57,7 @@ window.SITE_CONFIG = {
   },
 
   intro: {
-    projectTitleLabel: "Project Title",
+    projectTitleLabel: "Mini Project A",
     projectTitle: "Development of Digital Twin of a Railway Corridor Using Unity Game Engine and SUMO Traffic Simulation",
     heroVideo: "assets/video/video.mp4",
     heroVideoPoster: "",
