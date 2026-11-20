@@ -28,32 +28,32 @@ window.SITE_CONFIG = {
   },
 
   theme: {
-    heroBg: "#111111",
-    heroText: "#ffffff",
-    pageBg: "#f8fafc",
-    accent: "#7c3aed"
+	  heroBg: "#142D4E",
+	  heroText: "#ffffff",
+	  pageBg: "#F0F6FF",
+	  accent: "#3B82F6"
   },
 
   dividers: {
-    dividerBg: "#f9f9f9",
-    dividerText: "#ffffff"
+	   dividerBg: "#DBEAFE",
+	   dividerText: "#1E3A5F"
   },
 
   footer: {
-	  footerBg: "#111111",
-	  footerText: "#ffffff",
-	  footerBorder: "#222222",
-	
-	  homeLinkText: "RoadwayVR",
-	
-	  templateCredit:
-	    "This academic showcase template was developed by RoadwayVR.",
-	
-	  templateCreditLinkText:
-	    "Learn more at RoadwayVR.com",
-	
-	  templateCreditUrl:
-	    "https://roadwayvr.com"
+		footerBg: "#142D4E",
+		  footerText: "#ffffff",
+		  footerBorder: "#29486B",
+		
+		  homeLinkText: "RoadwayVR",
+		
+		  templateCredit:
+		    "This academic showcase template was developed by RoadwayVR.",
+		
+		  templateCreditLinkText:
+		    "Learn more at RoadwayVR.com",
+		
+		  templateCreditUrl:
+		    "https://roadwayvr.com"
   },
 
   intro: {
